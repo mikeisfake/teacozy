@@ -1,0 +1,136 @@
+*{
+  background-color: #000;
+  font-size: 22px;
+  font-family: "Helvetica";
+  color: seashell;
+  text-align: center;
+  margin: 0;
+}
+
+body{
+  opacity: 0.9;
+}
+
+/*genral styles*/
+
+h2, h4{
+  padding: 10px 0px;
+  background-color: black;
+}
+
+/*header*/
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+}
+
+header img{
+  height: 50px;
+  margin-left: 10px;
+}
+
+header nav{
+  margin-right: 10px;
+}
+
+nav span{
+  padding: 0px 15px;
+}
+
+/*mission*/
+
+.banner{
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  height: 700px;
+  width: 1200px;
+  top:70px;
+}
+
+.mission{
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  height: 700px;
+  background-image: url(../../resources/images/img-mission-background.jpg);
+  background-size: cover;
+}
+
+.mission-title{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/*tea of the month*/
+
+.monthly-tea{
+  display: flex;
+  width:1000px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.teas{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea{
+  display: inline-flex;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tea span{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.berry{
+  background-image: url(../../resources/images/img-berryblitz.jpg);
+  background-size: cover;
+}
+
+.spiced{
+  background-image: url(../../resources/images/img-spiced-rum.jpg);
+  background-size: cover;
+}
+
+.donuts{
+  background-image: url(../../resources/images/img-donut.jpg);
+  background-size: cover;
+}
+
+.myrtle{
+  background-image: url(../../resources/images/img-myrtle-ave.jpg);
+  background-size: cover;
+}
+
+.bedford{
+  background-image: url(../../resources/images/img-bedford-bizarre.jpg);
+  background-size: cover;
+}
+
+/*locations*/
+
+
+
+/*footer*/
