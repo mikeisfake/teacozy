@@ -90,7 +90,7 @@ nav span{
 }
 
 .tea{
-  display: inline-flex;
+  display: flex;
   height: 200px;
   width: 300px;
   margin-bottom: 30px;
@@ -98,6 +98,7 @@ nav span{
   margin-left: 20px;
   align-items: center;
   justify-content: center;
+  border: 1px solid red;
 }
 
 .tea span{
@@ -131,6 +132,42 @@ nav span{
 
 /*locations*/
 
+.locations{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 1200px;
+  height:500px;
+  background-image: url(../../resources/images/img-locations-background.jpg);
+  background-size: cover;
+}
+
+.locations h2{
+  width: 1200px;
+  background: transparent;
+}
+
+.places{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  width: 1200px;
+}
+
+.location{
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+.location p{
+  line-height: 3em;
+}
 
 
 /*footer*/
