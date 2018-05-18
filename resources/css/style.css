@@ -64,6 +64,14 @@ nav span{
   background-size: cover;
 }
 
+@media (max-width: 900px) {
+  .mission, .banner{
+    width: 100%;
+    height: 300px;
+  }
+
+}
+
 .mission-title{
   display:flex;
   flex-direction: column;
@@ -82,52 +90,41 @@ nav span{
   margin-top: 100px;
 }
 
+@media (max-width: 900px) {
+  .monthly-tea{
+    width:300px;
+  }
+
+}
+
+
 .teas{
   display: flex;
   flex-wrap:wrap;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .teas{
+    flex-direction: column;
+  }
+
 }
 
 .tea{
   display: flex;
-  height: 200px;
-  width: 300px;
+  flex-direction: column;
   margin-bottom: 30px;
   margin-right: 10px;
   margin-left: 20px;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid red;
 }
 
-.tea span{
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.berry{
-  background-image: url(../../resources/images/img-berryblitz.jpg);
-  background-size: cover;
-}
-
-.spiced{
-  background-image: url(../../resources/images/img-spiced-rum.jpg);
-  background-size: cover;
-}
-
-.donuts{
-  background-image: url(../../resources/images/img-donut.jpg);
-  background-size: cover;
-}
-
-.myrtle{
-  background-image: url(../../resources/images/img-myrtle-ave.jpg);
-  background-size: cover;
-}
-
-.bedford{
-  background-image: url(../../resources/images/img-bedford-bizarre.jpg);
-  background-size: cover;
+.tea img{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 15px;
 }
 
 /*locations*/
@@ -146,7 +143,6 @@ nav span{
 }
 
 .locations h2{
-  width: 1200px;
   background: transparent;
 }
 
@@ -155,7 +151,6 @@ nav span{
   align-items: center;
   justify-content: center;
   background: transparent;
-  width: 1200px;
 }
 
 .location{
@@ -167,6 +162,15 @@ nav span{
 
 .location p{
   line-height: 3em;
+}
+
+
+@media (max-width: 900px) {
+  .locations{
+    width: 100%;
+    height: 300px;
+  }
+
 }
 
 
